@@ -243,11 +243,12 @@ class StopfinderApiClient:
         self, response: aiohttp.ClientResponse
     ) -> list[dict[str, Any]]:
         """Parse the schedule response."""
-        data = await response.json()
+        data = await response.json() 
         students_by_id: dict[str, dict[str, Any]] = {}
 
         if isinstance(data, list):
             for schedule_data in data:
+                schedule_date = str(schedule_data.get("date", ""))[:10]
                 student_schedules = schedule_data.get("studentSchedules", [])
                 for student in student_schedules:
                     rider_id = student.get("riderId", "")
