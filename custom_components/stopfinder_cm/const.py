@@ -1,6 +1,6 @@
 """Constants for the Stopfinder integration."""
 
-DOMAIN = "stopfinder"
+DOMAIN = "stopfinder_cm"
 
 CONF_BASE_URL = "base_url"
 
