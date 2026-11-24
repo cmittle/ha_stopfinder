@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Stopfinder API
+  title: Stopfinder2 API
   version: 1.0.0
   description: "OpenAPI specification for the Stopfinder service used by the Home Assistant integration."
 servers:
