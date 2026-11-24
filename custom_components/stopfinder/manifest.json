@@ -1,5 +1,5 @@
 {
-  "domain": "stopfinder",
+  "domain": "stopfinder_cm",
   "name": "Stopfinder_CM",
   "codeowners": [],
   "config_flow": true,
